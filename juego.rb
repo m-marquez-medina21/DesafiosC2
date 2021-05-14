@@ -18,10 +18,10 @@ if jugador == "piedra" || jugador == "tijera" || jugador =="papel"
 
 
         if (jugador == "piedra" && jugada_pc== 1) || (jugador == "tijera" && jugada_pc == 2) || (jugador == "papel" && jugada_pc == 0)
-            puts "jugador ganaste eri seco"
+            puts "jugador gana"
 
         elsif (jugador == "piedra" && jugada_pc==2) || (jugador == "tijera" && jugada_pc == 0) || (jugador == "papel" && jugada_pc == 1)
-            puts "perdiste "
+            puts "jugador perdiste"
 
         else
             puts "empate"
